@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Register Form</title>
+    <link rel="stylesheet" href="registration.css.css" />
+  </head>
+  <body>
+    <div class="box">
+      <span class="borderLine"></span>
+      <form>
+        <h2>Register Now</h2>
+        <div class="inputBox">
+          <input type="text" required /><span>What's your name ?</span>
+          <i></i>
+        </div>
+        <div class="inputBox">
+          <input type="email" required /><span>What's your email ?</span>
+          <i></i>
+        </div>
+        <div class="inputBox">
+          <input type="date" required /><span>What's your date of birth ?</span>
+          <i></i>
+        </div>
+        <div class="inputBox">
+          <input
+            type="tel"
+            pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"
+            required
+          /><span>What's your phone number ?</span>
+          <i></i>
+        </div>
+        <input type="submit" value="Register" />
+      </form>
+    </div>
+  </body>
+</html>
