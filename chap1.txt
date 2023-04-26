@@ -1,0 +1,12 @@
+Hello this is my first time on git
+Im learning the various commands on git
+This is my second edit.
+
+
+Commands i used: vim chap1.txt,
+i to edit
+c to go back to command mode
+:wq to return
+ctrl+c to exit
+cat chap1.txt to display all the contents of the file
+
