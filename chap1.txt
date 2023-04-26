@@ -9,4 +9,5 @@ c to go back to command mode
 :wq to return
 ctrl+c to exit
 cat chap1.txt to display all the contents of the file
+Im using github now
 
